@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_footer_narrow"
+            style="@style/nomalStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_button"
+            android:text="絞込み" />
+
+        <Button
+            android:id="@+id/btn_footer_narrowclear"
+            style="@style/nomalStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_button"
+            android:text="絞込みクリア" />
+
+        <TextView
+            android:id="@+id/TextView_dummy1"
+            style="@style/nomalStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" "/>
+
+        <TextView
+            android:id="@+id/footertext_disprownumber"
+            style="@style/nomalStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10～20件を表示中 /"/>
+
+        <TextView
+            android:id="@+id/footertext_maxnumber"
+            style="@style/nomalStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="50 件" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            style="@style/nomalStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="絞り込み条件："/>
+
+        <TextView
+            android:id="@+id/footertext_narrows"
+            style="@style/nomalStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="チェックＯＫ、アライアンス統括部第１グループ"/>
+
+    </LinearLayout>
+
+</LinearLayout>

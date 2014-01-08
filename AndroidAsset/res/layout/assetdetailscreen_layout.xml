@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nomal_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout_Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout_asset_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/titleView_asset_number"
+                style="@style/DialogDetaileViewStyle_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detailetitle_asset_number" />
+
+            <TextView
+                android:id="@+id/textView_asset_number"
+                style="@style/DialogDetaileViewStyle_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DB3456789-12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/titleView_id"
+                style="@style/DialogDetaileViewStyle_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detailetitle_id" />
+
+            <TextView
+                android:id="@+id/textView_id"
+                style="@style/DialogDetaileViewStyle_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567890" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_availability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/linearLayout_status"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/Image_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="icon" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView_status"
+                style="@style/DialogDetaileViewStyle_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/Image_status"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/Image_status"
+                android:text="利用期限が迫っています！" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_availability"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/titleView_availability"
+                style="@style/DialogDetaileViewStyle_middle_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detailetitle_availability" />
+
+<!--
+            <TextView
+                android:id="@+id/textView_availability_status"
+                style="@style/DialogDetaileViewStyle_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="利用期限が迫っています！" />
+-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_availability_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout_availability_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/titleView_management_group"
+                    style="@style/DialogDetaileViewStyle_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detailetitle_management_group" />
+
+                <TextView
+                    android:id="@+id/titleView_management_member"
+                    style="@style/DialogDetaileViewStyle_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detailetitle_management_member" />
+
+                <TextView
+                    android:id="@+id/titleView_use_member"
+                    style="@style/DialogDetaileViewStyle_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detailetitle_use_member" />
+
+                <TextView
+                    android:id="@+id/titleView_installation_location"
+                    style="@style/DialogDetaileViewStyle_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detailetitle_installation_location" />
+
+                <TextView
+                    android:id="@+id/titleView_use_deadline"
+                    style="@style/DialogDetaileViewStyle_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detailetitle_use_deadline" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout_availability_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView_management_group"
+                    style="@style/DialogDetaileViewStyle_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="アライアンス統括部第１グループ" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_management_member"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView_management_member_id"
+                        style="@style/DialogDetaileViewStyle_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0B0101" />
+
+                    <TextView
+                        android:id="@+id/textView_management_member_name"
+                        style="@style/DialogDetaileViewStyle_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:text="源五郎丸　五郎右エ門" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_use_member"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView_use_member_id"
+                        style="@style/DialogDetaileViewStyle_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0B0101" />
+
+                    <TextView
+                        android:id="@+id/textView_use_member_name"
+                        style="@style/DialogDetaileViewStyle_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:text="源五郎丸　五郎右エ門" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView_installation_location"
+                    style="@style/DialogDetaileViewStyle_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:ellipsize="end"
+                    android:inputType="none|text"
+                    android:lines="1"
+                    android:scrollHorizontally="false"
+                    android:text="新宿本社１４階" />
+
+                <TextView
+                    android:id="@+id/textView_use_deadline"
+                    style="@style/DialogDetaileViewStyle_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2012/03/31" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_asset_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titleView_asset_information"
+            style="@style/DialogDetaileViewStyle_middle_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detailetitle_asset_information" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_asset_information_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_asset_information_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/titleView_asset_type"
+                    style="@style/DialogDetaileViewStyle_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detailetitle_asset_type" />
+
+                <TextView
+                    android:id="@+id/titleView_obtain_type"
+                    style="@style/DialogDetaileViewStyle_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detailetitle_obtain_type" />
+
+                <TextView
+                    android:id="@+id/titleView_contract_expiration_date"
+                    style="@style/DialogDetaileViewStyle_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detailetitle_contract_expiration_date" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_asset_information_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView_asset_type"
+                    style="@style/DialogDetaileViewStyle_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="ﾊｰﾄﾞｳｪｱ･ｿﾌﾄｳｪｱ暗号機能付き" />
+
+                <TextView
+                    android:id="@+id/textView_obtain_type"
+                    style="@style/DialogDetaileViewStyle_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="レンタル" />
+
+                <TextView
+                    android:id="@+id/textView_contract_expiration_date"
+                    style="@style/DialogDetaileViewStyle_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2012/03/31" />
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_obtain_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_list"
+        android:icon="@*android:drawable/ic_menu_edit"
+        android:title="@string/assetlist"
+        android:showAsAction="ifRoom|withText">
+    </item>
+
+    <item
+        android:id="@+id/menu_barcode"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/barcode"
+        android:showAsAction="ifRoom|withText">
+    </item>
+
+    <item
+        android:id="@+id/menu_manage"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/admin"
+        android:showAsAction="ifRoom|withText">
+
+        <menu >
+            <item
+		        android:id="@+id/admin_import"
+		        android:icon="@android:drawable/ic_menu_set_as"
+		        android:title="@string/file_import">
+            </item>
+            <item
+		        android:id="@+id/admin_export"
+		        android:icon="@android:drawable/ic_menu_upload"
+		        android:title="@string/file_export">
+
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_camera"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="カメラ"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menu_gallery"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="ギャラリー"
+        >
+    </item>
+
+    <item
+        android:id="@+id/item4"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/endapp">
+    </item>
+
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidAssetActivity!</string>
+    <string name="app_name">資産管理システム</string>
+    <string name="barcode">バーコード読取</string>
+    <string name="assetlist">一覧</string>
+    <string name="endapp">終了</string>
+    <string name="admin">管理</string>
+    <string name="file_import">インポート</string>
+    <string name="file_export">エクスポート</string>
+
+    <string name="detailetitle_id"><u>資産ID</u></string>
+    <string name="detailetitle_asset_number"><u>資産管理番号</u></string>
+    <string name="detailetitle_management_group"><u>管理部署</u></string>
+    <string name="detailetitle_installation_location"><u>設置場所</u></string>
+    <string name="detailetitle_availability">利用状況</string>
+    <string name="detailetitle_management_member"><u>管理者</u></string>
+    <string name="detailetitle_use_member"><u>利用者</u></string>
+    <string name="detailetitle_use_deadline"><u>利用期限</u></string>
+    <string name="detailetitle_asset_information">資産情報</string>
+    <string name="detailetitle_asset_type"><u>種別</u></string>
+    <string name="detailetitle_obtain_type"><u>取得種別</u></string>
+    <string name="detailetitle_contract_expiration_date"><u>契約満了日</u></string>
+    <string name="detailetitle_comment"><u>コメント</u></string>
+    <string name="detailetitle_status"><u>状態</u></string>
+
+    <string name="detailetitle_btnOK">確認ＯＫ</string>
+    <string name="detailetitle_btnNG">確認ＮＧ</string>
+    <string name="detailetitle_btnCancel">キャンセル</string>
+
+    <string name="detailetitle_alert_status_use">使用中</string>
+    <string name="detailetitle_alert_status_wait">待機</string>
+    <string name="detailetitle_alert_status_disposal">廃棄</string>
+
+    <string name="detailetitle_alert_alarm_OK">－</string>
+    <string name="detailetitle_alert_alarm_expiration">期限切れ</string>
+
+    <string name="detailetitle_alert_check_unconfirmed">未確認</string>
+    <string name="detailetitle_alert_check_end">棚卸し済み</string>
+
+    <string name="message_norecord">がみつかりません。</string>
+    <string name="message_check_ok">は確認OK登録済みです。</string>
+    <string name="message_check_ng">は確認NG登録済みです。</string>
+    <string name="message_entrysure">確認登録しますか？</string>
+
+    <string name="check_btnOK">ＯＫとする</string>
+    <string name="check_btnNG">ＮＧとする</string>
+    <string name="check_btnCancel">キャンセル</string>
+
+    <string name="listcontext_title">状態更新 :</string>
+<!--
+    <string name="map_api_key">0LYRH6z4DLe-ZYKZY41Xl2jmq5cRgpSxLM-G7jw</string>
+    <string name="map_api_key_debug">0LYRH6z4DLe9WT-up6ir9G5QT9yGOQVMYEACLgg</string>
+ -->
+    <string name="map_api_key">0LYRH6z4DLe9WT-up6ir9G5QT9yGOQVMYEACLgg</string>
+
+    <string name="narrow_title">絞込み選択</string>
+    <string name="narrow_prompt">各項目を選択して下さい。</string>
+    <string name="narrow_btn">条件確定</string>
+
+
+    <string name="detailetitle_btnMap">設置場所地図</string>
+</resources>

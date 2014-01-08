@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<ImageView android:id="@+id/result_img" android:src="@drawable/icon"
+				android:layout_gravity="top" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<LinearLayout android:orientation="vertical"
+				android:layout_gravity="bottom" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:paddingLeft="5px" android:paddingRight="5px">
+				<TextView android:id="@+id/format_txt" android:textSize="18px"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				<TextView android:id="@+id/num_txt" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18px" />
+				<TextView android:id="@+id/conv_txt"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18px" />
+				<Button android:id="@+id/cancel_btn" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="@string/detailetitle_btnCancel" />
+				<Button android:id="@+id/access_btn" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="OK" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

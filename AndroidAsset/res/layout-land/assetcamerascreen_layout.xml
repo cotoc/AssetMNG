@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_width="0px"
+        android:layout_height="match_parent">
+
+        <view class="jp.iftc.androidasset.barcode.Preview" android:id="@+id/preview_surface"
+            android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <view class="jp.iftc.androidasset.barcode.FinderView"
+            android:id="@+id/viewfinder_view" android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:background="@color/transparent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/assetdetails"
+        android:layout_weight="1"
+        android:layout_width="0px"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

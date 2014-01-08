@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nomal_bg">
+
+    <TextView
+        android:id="@+id/narrow_title1"
+        style="@style/DialogDetaileViewStyle_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detailetitle_management_group" />
+
+    <Spinner
+        android:id="@+id/Spinner_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/SpinnerItems"
+        android:prompt="@string/narrow_prompt">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/narrow_title2"
+        style="@style/DialogDetaileViewStyle_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detailetitle_installation_location" />
+
+    <Spinner
+        android:id="@+id/Spinner_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/SpinnerItems"
+        android:prompt="@string/narrow_prompt">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/narrow_title3"
+        style="@style/DialogDetaileViewStyle_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detailetitle_status" />
+
+    <Spinner
+        android:id="@+id/Spinner_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/SpinnerItems"
+        android:prompt="@string/narrow_prompt">
+    </Spinner>
+
+    <Button
+        android:id="@+id/nerrow_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_button"
+        android:text="@string/narrow_btn" />
+
+</LinearLayout>

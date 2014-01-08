@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/btnfirst"
+        style="@style/list_footerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_button"
+        android:drawableLeft="@android:drawable/ic_media_previous"
+        android:text="最初" />
+
+    <Button
+        android:id="@+id/btnbefore"
+        style="@style/list_footerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_button"
+        android:drawableLeft="@android:drawable/ic_media_rew"
+        android:text="前へ" />
+
+    <TextView
+        android:id="@+id/TextView_dummy"
+        style="@style/list_footerStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnnext"
+        style="@style/list_footerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_button"
+        android:drawableRight="@android:drawable/ic_media_ff"
+        android:text="次へ" />
+
+    <Button
+        android:id="@+id/btnlast"
+        style="@style/list_footerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_button"
+        android:drawableRight="@android:drawable/ic_media_next"
+        android:text="最後" />
+
+</LinearLayout>

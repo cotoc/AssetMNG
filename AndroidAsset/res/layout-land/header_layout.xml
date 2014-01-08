@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/ListViewHeadStyle"
+    >
+
+    <TextView
+        android:id="@+id/hd_textView_01"
+        style="@style/ListViewHeadTextStyle_land"
+        android:layout_weight="0.5"
+        android:text="@string/detailetitle_status"/>
+
+    <TextView
+        android:id="@+id/hd_textView_02"
+        style="@style/ListViewHeadTextStyle_land"
+        android:layout_weight="0.8"
+        android:text="@string/detailetitle_id"/>
+
+    <TextView
+        android:id="@+id/hd_textView_03"
+        style="@style/ListViewHeadTextStyle_land"
+        android:layout_weight="1.5"
+        android:text="@string/detailetitle_asset_number"/>
+    <TextView
+        android:id="@+id/hd_textView_04"
+        style="@style/ListViewHeadTextStyle_land"
+        android:layout_weight="2.5"
+        android:text="@string/detailetitle_management_group"/>
+
+    <TextView
+        android:id="@+id/hd_textView_05"
+        style="@style/ListViewHeadTextStyle_land"
+        android:layout_weight="1"
+        android:text="@string/detailetitle_asset_type"/>
+
+    <TextView
+        android:id="@+id/hd_textView_06"
+        style="@style/ListViewHeadTextStyle_land"
+        android:layout_weight="2"
+        android:text="@string/detailetitle_installation_location"/>
+
+</LinearLayout>

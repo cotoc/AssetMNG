@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/listcontext1"
+	      android:title="@string/detailetitle_btnOK"
+	      android:numericShortcut="1" />
+	<item android:id="@+id/listcontext2"
+	      android:title="@string/detailetitle_btnNG"
+	      android:numericShortcut="2" />
+	<item android:id="@+id/disp_map"
+	      android:title="@string/detailetitle_btnMap"
+	      android:numericShortcut="3" />
+</menu>

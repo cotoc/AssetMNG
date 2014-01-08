@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/nomal_bg"
+    android:minWidth="2000dp">
+
+    <!--
+        <com.google.android.maps.MapView
+        android:id="@+id/assetMap_View"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0Byp3Y-abxxEHnugWbn0eYQNhzzFpbODxiNeRUw"
+        android:clickable="true"
+        android:enabled="true" >
+    </com.google.android.maps.MapView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+    -->
+
+    <FrameLayout
+        android:id="@+id/mapHolder"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#55000000"
+        android:orientation="vertical"
+        android:padding="2px" >
+
+        <TextView
+            android:id="@+id/text_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/liner_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btn_map_ok"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_button"
+        android:text="OK" android:layout_weight="1" android:layout_width="match_parent"/>
+    <Button
+        android:id="@+id/btn_map_return"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_button"
+        android:text="元の位置に戻る" android:layout_weight="1" android:layout_width="match_parent"/>
+    <Button
+        android:id="@+id/btn_map_save"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_button"
+        android:text="地図を保存" android:layout_weight="1" android:layout_width="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

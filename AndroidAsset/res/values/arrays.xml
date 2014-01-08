@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="SpinnerItems">
+        <item>－－－</item>
+        <item>未確認</item>
+        <item>確認ＯＫ</item>
+        <item>確認ＮＧ</item>
+    </string-array>
+
+</resources>
